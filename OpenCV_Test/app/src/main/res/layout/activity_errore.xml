@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.nello_9.opencv_test.com.example.nello_9.FaceRecognition.MainActivity_show_camera">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="159dp"
+    android:text="ATTENZIONE! GLI OCCHI NON SONO STATI IDENTIFICATI! Cerca di tenere lo smartphone il più fermo possibile durante l'acquisizione. Tocca menù per tornare al menù principale"
+    android:layout_gravity="center"
+    android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="#088A08"
+        android:text="Menù"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|center"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

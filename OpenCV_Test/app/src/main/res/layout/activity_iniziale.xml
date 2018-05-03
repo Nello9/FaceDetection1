@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_iniziale"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nello_9.opencv_test.com.example.nello_9.FaceRecognition.ActivityIniziale">
+
+    <Button
+        android:id="@+id/fotoCamAnteriore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:background="#088A08"
+        android:text="Acquisizione con camera frontale"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|end"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_below="@+id/fotoCamPosteriore"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/fotoCamPosteriore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:background="#088A08"
+        android:text="Acquisizione con camera posteriore"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="top|center"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/senzaNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#088A08"
+        android:text="Aggiungi nome ad una foto "
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|end"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/senzaFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#088A08"
+        android:text="Aggiungi soggetto alla lista senza foto"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|end"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_below="@+id/senzaNome"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+
+    <Button
+        android:id="@+id/copiaDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#088A08"
+        android:text="copiaDB"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="bottom|end"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/senzaFoto"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
